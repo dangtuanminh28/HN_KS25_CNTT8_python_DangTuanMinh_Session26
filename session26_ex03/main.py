@@ -228,14 +228,14 @@ def compare_champion(champion_pool):
         return
 
     while True:
-        id1 = input("Nhập mã thứ nhất: ").strip()
+        id1 = input("Nhập mã thứ nhất: ").strip().upper()
         if not id1:
             print("Mã không được để trống!")
             continue
         break
 
     while True:
-        id2 = input("Nhập mã thứ hai: ").strip()
+        id2 = input("Nhập mã thứ hai: ").strip().upper()
         if not id2:
             print("Mã không được để trống!")
             continue
@@ -315,7 +315,7 @@ while True :
 2. Thêm quân cờ mới
 3. So sánh 2 quân cờ
 4. Tính tổng chiến lực Đội Hình Ra Sân
-5. Thoát chương trình           
+5. Thoát chương trình 
 ---------------------------------
 """)
     choice = input("Chọn chức năng (1-5): ").strip()
